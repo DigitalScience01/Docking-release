@@ -2,8 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/DigitalScience01/Docking/main/assets/logo.png" alt="DockFlow Logo" width="160" height="160" style="border-radius: 20%; filter: drop-shadow(0px 8px 24px rgba(0, 240, 255, 0.45));" />
 
-# DockFlow Official Releases & Distribution
-### High-Performance Molecular Docking, AI Protocol Advisory, 2D/3D Interaction Mapping & ADMET Screening Platform
+# DockFlow
+### Molecular Docking, AI Protocol Advisory, 2D/3D Interaction Mapping & ADMET Screening Platform
 
 [![Current Release](https://img.shields.io/badge/Release-v1.1.7-00f0ff.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DigitalScience01/Docking-release/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/DigitalScience01/Docking-release/releases)
