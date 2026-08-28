@@ -103,7 +103,7 @@ Get-FileHash -Path ".\DockFlow Setup 1.1.7.exe" -Algorithm SHA512
 
 **Official Expected Hash (v1.1.7):**
 ```text
-zVkJVMbJpDb5bkhZxox16NHhFh8HxzldndCvhczcecE30l5FzS3bwO6mllpw64sqRCV79QuDIjGR1f+iRwKPvg==
+klLVLAR0g2o0FqvS2rm2BE++OYRrA1o6uIgSU0Fias4EyYYQNCxJtGIEvBpCLiDPUytjXbyzz9JuRO7Pdc6MxA==
 ```
 
 ---
