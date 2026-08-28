@@ -5,7 +5,7 @@
 # DockFlow
 ### Molecular Docking, AI Protocol Advisory, 2D/3D Interaction Mapping & ADMET Screening Platform
 
-[![Current Release](https://img.shields.io/badge/Release-v1.1.7-00f0ff.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DigitalScience01/Docking-release/releases)
+[![Current Release](https://img.shields.io/badge/Release-v1.1.9-00f0ff.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DigitalScience01/Docking-release/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20x64-0078D6.svg?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/DigitalScience01/Docking-release/releases)
 [![Status](https://img.shields.io/badge/Status-Stable%20Production-10b981.svg?style=for-the-badge)](https://github.com/DigitalScience01/Docking-release/releases)
 [![Engine](https://img.shields.io/badge/AutoDock%20Vina-v1.2.7-E25A1C.svg?style=for-the-badge)](https://vina.scripps.edu/)
@@ -16,38 +16,39 @@
   Official production release hub for <b>DockFlow Desktop Suite</b>. Download the latest Windows setup installers, standalone portable packages, and differential auto-update manifests.
 </p>
 
-[📥 Download Latest Release (v1.1.7)](#-latest-release-v117-downloads) • [✨ Highlights](#-whats-new-in-v117) • [💻 System Requirements](#-system-requirements) • [🚀 Installation Guide](#-installation--setup-guide) • [🔐 License Activation](#-license-activation--support) • [📂 Source Code](https://github.com/DigitalScience01/Docking)
+[📥 Download Latest Release (v1.1.9)](#-latest-release-v119-downloads) • [✨ Highlights](#-whats-new-in-v119) • [💻 System Requirements](#-system-requirements) • [🚀 Installation Guide](#-installation--setup-guide) • [🔐 License Activation](#-license-activation--support) • [📂 Source Code](https://github.com/DigitalScience01/Docking)
 
 </div>
 
 ---
 
-## 📦 Latest Release: v1.1.7 Downloads
+## 📦 Latest Release: v1.1.9 Downloads
 
 | Package Type | File Name | Size | Architecture | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **Windows Installer (NSIS)** | [`DockFlow Setup 1.1.7.exe`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.7/DockFlow.Setup.1.1.7.exe) | ~178 MB | `x64` (64-bit) | Recommended for desktop PCs and laptops. Includes automatic desktop shortcuts and auto-updater integration. |
-| **Windows Portable** | [`DockFlow 1.1.7.exe`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.7/DockFlow.1.1.7.exe) | ~178 MB | `x64` (64-bit) | Zero-installation standalone executable. Ideal for USB flash drives, restricted enterprise environments, and lab computers. |
-| **Auto-Update Manifest** | [`latest.yml`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.7/latest.yml) | 345 B | All | Cryptographic SHA512 manifest for background auto-updates. |
-| **Blockmap File** | [`DockFlow Setup 1.1.7.exe.blockmap`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.7/DockFlow.Setup.1.1.7.exe.blockmap) | ~180 KB | `x64` | Fast differential delta update blockmap. |
+| **Windows Installer (NSIS)** | [`DockFlow Setup 1.1.9.exe`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.9/DockFlow-Setup-1.1.9.exe) | ~178 MB | `x64` (64-bit) | Recommended for desktop PCs and laptops. Includes automatic desktop shortcuts and auto-updater integration. |
+| **Windows Portable** | [`DockFlow 1.1.9.exe`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.9/DockFlow.1.1.9.exe) | ~178 MB | `x64` (64-bit) | Zero-installation standalone executable. Ideal for USB flash drives, restricted enterprise environments, and lab computers. |
+| **Auto-Update Manifest** | [`latest.yml`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.9/latest.yml) | 345 B | All | Cryptographic SHA512 manifest for background auto-updates. |
+| **Blockmap File** | [`DockFlow Setup 1.1.9.exe.blockmap`](https://github.com/DigitalScience01/Docking-release/releases/download/v1.1.9/DockFlow-Setup-1.1.9.exe.blockmap) | ~180 KB | `x64` | Fast differential delta update blockmap. |
 
 ---
 
-## ✨ What's New in v1.1.7
+## ✨ What's New in v1.1.9
 
-* 🎨 **Full Light & Dark Adaptive Theming in AI Protocol Advisor**:
-  * Complete support for Clean Scientific Light Theme across all advisor cards, search drawers, residue badges, druggability meters, and active pocket coordinate pills.
-  * Real-time dynamic background synchronization for embedded 3D Mini Ribbon Viewers upon theme change.
-* 🧬 **Interactive 2D Protein-Ligand Complex Selector**:
-  * Added dynamic `Target Complex:` dropdown and `⚡ View 2D Map` action button on the 2D Interaction Diagram toolbar.
-  * Seamlessly toggle and compute hydrogen bonds ($\le 3.5\,\text{\AA}$), hydrophobic contacts ($\le 4.0\,\text{\AA}$), and residue interactions for any docked hit compound and pose.
-* 📊 **Interface Standardization & Layout Modernization**:
-  * Standardized header typography, weights, and colors across all 3 columns in Ligand Studio (*Ligand Input*, *Prepared Ligands Library*, *Selected Ligand Structure*).
-  * Removed numbering clutter from Results subtabs, Receptor Preparation, and Protein Grid Box for a sleek, publication-focused design.
-* 🖥️ **High-Contrast Multi-Engine Terminal Console**:
-  * Enhanced terminal box styling with crisp cyan illumination in Dark Mode and deep high-contrast terminal styling in Light Mode.
-* 🔐 **Resilient Enterprise License Engine**:
-  * Centralized cloud verification, automated hardware machine ID binding, and local encrypted cache for offline field resilience.
+* 🌐 **Mandatory Enterprise License Gate (English UI & High Contrast)**:
+  * Complete English interface with crisp, legible typography on the mandatory startup screen.
+  * Instant hardware Machine ID resolution and email-based cloud authentication against Google Sheets.
+* 🛡️ **Enhanced Google Apps Script Licensing Engine**:
+  * Real-time verification against Google Sheets schema: `[ email | nama | activation_date | expired_date | MachineID_1 | Machine ID_2 ]`.
+  * Support for Excel serial date numbers and standard date formats.
+  * Automatic multi-device binding (Slot 1 & Slot 2) with remaining validity day counter.
+* 🔒 **Bytenode V8 Native Bytecode Protection**:
+  * All main process algorithms, IPC bridges, and licensing verification modules compiled into native V8 `.jsc` bytecode for enterprise-grade anti-tamper security.
+* 🤖 **Streamlined Settings & AI Protocol Advisor**:
+  * Cleaner settings view with zero hardcoded API keys.
+  * Easy custom Google Gemini API Key configuration directly within the Protocol Advisor drawer.
+* ⚡ **High-Performance Multi-Core Docking with AutoDock Vina v1.2.7**:
+  * Fast receptor/ligand preparation with RDKit, Meeko, and real-time 2D/3D interaction profiling.
 
 ---
 
@@ -67,13 +68,13 @@
 ## 🚀 Installation & Setup Guide
 
 ### Option 1: Standard Installation Wizard (Recommended)
-1. Download [`DockFlow Setup 1.1.7.exe`](https://github.com/DigitalScience01/Docking-release/releases).
+1. Download [`DockFlow Setup 1.1.9.exe`](https://github.com/DigitalScience01/Docking-release/releases).
 2. Double-click the installer executable.
 3. Select your desired installation directory and click **Install**.
 4. Launch **DockFlow** from your Desktop shortcut or Start Menu.
 
 ### Option 2: Portable Standalone Executable
-1. Download [`DockFlow 1.1.7.exe`](https://github.com/DigitalScience01/Docking-release/releases).
+1. Download [`DockFlow 1.1.9.exe`](https://github.com/DigitalScience01/Docking-release/releases).
 2. Move the file to any folder or USB storage drive.
 3. Double-click to run immediately without administrative installation privileges.
 
@@ -85,7 +86,7 @@ Upon initial launch, DockFlow presents an Enterprise License Verification Gate:
 
 * **Email-Based Cloud Activation**:
   * Enter your registered institutional or personal email address.
-  * Click **🔓 Validate Email & Unlock DockFlow** to verify against the enterprise license database and unlock the complete application suite.
+  * Click **🔓 Verify Email & Unlock DockFlow** to verify against the enterprise license database and unlock the complete application suite.
   * For offline field research, verified licenses are cached locally with an automatic grace period.
 
 ---
@@ -95,12 +96,12 @@ Upon initial launch, DockFlow presents an Enterprise License Verification Gate:
 To verify the cryptographic integrity of your downloaded installer, execute PowerShell:
 
 ```powershell
-Get-FileHash -Path ".\DockFlow Setup 1.1.7.exe" -Algorithm SHA512
+Get-FileHash -Path ".\DockFlow-Setup-1.1.9.exe" -Algorithm SHA512
 ```
 
-**Official Expected Hash (v1.1.7):**
+**Official Expected Hash (v1.1.9):**
 ```text
-cVrdfLsBdrAKuLF+xhP3rvhLSovungbk6T1wsDgMS9JUdWjFBmjl76HXkQyTozhgq9jGm+/CusEEHZaz2/AINg==
+ykFteME18wKsVGKghZfcwDJnQmUMciwOiz+ncyzBLokDJQpZPYp2N5/6etvgerERM+l0c1wwDxO1z2YFO8w6Cg==
 ```
 
 ---
@@ -134,4 +135,5 @@ DockFlow includes a built-in background updater powered by `electron-updater`. W
 <div align="center">
   <sub>Developed with ❤️ by <b>Digital Science</b> • Enterprise Molecular Modeling & Cheminformatics Platform</sub>
 </div>
+
 
