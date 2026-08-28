@@ -47,8 +47,7 @@
 * 🖥️ **High-Contrast Multi-Engine Terminal Console**:
   * Enhanced terminal box styling with crisp cyan illumination in Dark Mode and deep high-contrast terminal styling in Light Mode.
 * 🔐 **Resilient Enterprise License Engine**:
-  * Fast-track offline activation with master enterprise fallback keys (`DOCKFLOW-PRO-2026`).
-  * Automated recovery helper links in the license validation gate to ensure zero workflow disruption during field research.
+  * Centralized cloud verification, automated hardware machine ID binding, and local encrypted cache for offline field resilience.
 
 ---
 
@@ -84,12 +83,10 @@
 
 Upon initial launch, DockFlow presents an Enterprise License Verification Gate:
 
-1. **Email-Based Cloud Activation**:
-   * Enter your institutional or registered email address.
-   * Click **🔓 Validate Email & Unlock DockFlow**.
-2. **Instant Master Pro Key Activation**:
-   * If working offline or before your email is registered in cloud records, click **`⚡ Auto-fill Pro Key`** (or enter `DOCKFLOW-PRO-2026`).
-   * Click **🔓 Validate Email & Unlock DockFlow** to immediately unlock the complete application suite.
+* **Email-Based Cloud Activation**:
+  * Enter your registered institutional or personal email address.
+  * Click **🔓 Validate Email & Unlock DockFlow** to verify against the enterprise license database and unlock the complete application suite.
+  * For offline field research, verified licenses are cached locally with an automatic grace period.
 
 ---
 
