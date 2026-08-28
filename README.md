@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DigitalScience01/Docking/main/assets/logo.png" alt="DockFlow Logo" width="160" height="160" style="border-radius: 20%; filter: drop-shadow(0px 8px 24px rgba(0, 240, 255, 0.45));" />
+<img src="assets/logo.png" alt="DockFlow Logo" width="160" height="160" style="border-radius: 20%; filter: drop-shadow(0px 8px 24px rgba(0, 240, 255, 0.45));" />
 
 # DockFlow
 ### Molecular Docking, AI Protocol Advisory, 2D/3D Interaction Mapping & ADMET Screening Platform
